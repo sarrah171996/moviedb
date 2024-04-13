@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import'bootstrap/dist/js/bootstrap.bundle'
-import {createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
+import {createBrowserRouter,  RouterProvider } from 'react-router-dom'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 import Home from './components/Home/Home';
-import Details from './components/Details/Details';
+// import Details from './components/Details/Details';
 import About from './components/About/About';
 import Movies from './components/Movies/Movies';
 import TvShows from './components/TvShows/TvShows';
@@ -24,7 +23,7 @@ function App() {
 
           {path:'home' , element :<Home/>},
           {path:'about' , element :<About/>},
-          {path:'details/:id/:media_type' , element :<Details/>},
+          // {path:'details/:id/:media_type' , element :<Details/>},
           {path:'movies' , element : <Movies/>},
           {path:'tvshows' , element :<TvShows/>},
           {path:'register' , element :<Register/>},
