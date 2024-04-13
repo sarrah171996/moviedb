@@ -1,7 +1,7 @@
 import React from 'react'
-import Movies from '../Movies/Movies'
-import TvShows from '../TvShows/TvShows'
-import People from '../People/People'
+// import Movies from '../Movies/Movies'
+// import TvShows from '../TvShows/TvShows'
+// import People from '../People/People'
 
 
 export default function Home() {
@@ -10,9 +10,9 @@ export default function Home() {
       <h1>home component</h1>
 
 
-      <Movies/>
+      {/* <Movies/>
       <TvShows/>
-      <People/>
+      <People/> */}
 
 
 
