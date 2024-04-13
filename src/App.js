@@ -19,7 +19,7 @@ import MasterLayOut from './components/MasterLayOut/MasterLayOut';
 function App() {
 
   let routs = createBrowserRouter([
-    {path:'' , element : <MasterLayOut/> ,children: [
+    {path:'' , element : [<MasterLayOut/> , <Home/> ] ,children: [
 
           {path:'home' , element :<Home/>},
           {path:'about' , element :<About/>},
